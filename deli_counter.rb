@@ -23,5 +23,6 @@ def now_serving(katz_deli)
   else
     first = katz_deli.shift
     puts "Currently serving #{first}."
+  end
 end
 
