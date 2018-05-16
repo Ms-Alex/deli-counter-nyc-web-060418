@@ -9,7 +9,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, i|
       message += " #{i+1}. #{name}"
     end
-    message
+    return message
   end
 end
 
